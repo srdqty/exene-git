@@ -1,3 +1,19 @@
+# eXene
+
+I cloned the svn repo from here:
+https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/eXene
+
+See http://www.smlnj.org/svn.html
+
+I tried to keep history. I used the following command:
+```
+git svn clone --trunk=/trunk --branches=/branches/* --tags=/releases/*
+https://smlnj-gforge.cs.uchicago.edu/svn/smlnj/eXene exene-git
+```
+
+Original README
+--------------------------------------------------------------------------------
+
 This is the first pre-release/alpha version of what we shall call eXene 2.0,
 which is based on the "fifth pre-release version of eXene 1.0" (see README-1.0
 for details). This version offers a few enhancements to this previous release,
@@ -7,7 +23,7 @@ for receiving window deletion events from the X window manager. More such update
 are to come (we promise!), but this release is provided in case eXene users wish
 to take advantage of a few of these features early. Because of a few API changes
 (see CHANGES for details) and more upcoming improvements, we have named this
-release eXene 2.0a. Please feel free to contact us with any bug reports, 
+release eXene 2.0a. Please feel free to contact us with any bug reports,
 suggestions, or critiques.
 
 	- Dusty deBoer
